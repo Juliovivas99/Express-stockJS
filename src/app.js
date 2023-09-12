@@ -2,6 +2,7 @@
 const express = require('express');
 const app = express();
 const getStockPrice = require('./utils/getStockPrice');
+const connection = require('./db');
 
 app.use(express.json());
 
