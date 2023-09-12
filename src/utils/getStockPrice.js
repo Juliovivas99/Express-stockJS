@@ -1,5 +1,5 @@
 const axios = require('axios');
-const connection = require('./db');
+const connection = require('../../db.js');
 require('dotenv').config();
 
 async function getStockPrice(stockSymbol) 
