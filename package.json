@@ -4,7 +4,9 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "call-body": "node src/scripts/call-body.js",
+    "call-header": "node src/scripts/call-header.js"
   },
   "keywords": [],
   "author": "",
